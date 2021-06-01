@@ -28,3 +28,10 @@ $(function() {
 $('.navbar-collapse ul li a').click(function() {
     $('.navbar-toggle:visible').click();
 });
+
+$(function() {
+    $('.grid img').on('click', function() {
+	$('.imagepreview').attr('src', $(this).attr('src'));
+	$('#imagemodal').modal('show');
+    });
+});
