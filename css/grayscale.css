@@ -382,6 +382,10 @@ body {
     padding: 10px;
 }
 
+.grid img:hover {
+    cursor: pointer;
+}
+
 .imagepreview-modal {
     width: 50%;
 }
