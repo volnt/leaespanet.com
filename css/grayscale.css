@@ -385,3 +385,16 @@ body {
 .imagepreview-modal {
     width: 50%;
 }
+
+.input-group {
+    width: 100%;
+    padding: 5px 0;
+}
+
+form button {
+    padding: 5px 0;
+}
+
+form {
+    text-align: left;
+}
