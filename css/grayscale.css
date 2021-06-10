@@ -406,3 +406,7 @@ form button {
 form {
     text-align: left;
 }
+
+.content-section .black {
+    background-color: black;
+}
