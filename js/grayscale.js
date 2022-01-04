@@ -19,7 +19,7 @@ $(function() {
         var $anchor = $(this);
         $('html, body').stop().animate({
             scrollTop: $($anchor.attr('href')).offset().top
-        }, 1500, 'easeInOutExpo');
+        }, 700, 'easeInOutExpo');
         event.preventDefault();
     });
 });
@@ -31,7 +31,7 @@ $('.navbar-collapse ul li a').click(function() {
 
 $(function() {
     $('.grid img').on('click', function() {
-	$('.imagepreview').attr('src', $(this).attr('src'));
-	$('#imagemodal').modal('show');
+        $('.imagepreview').attr('src', $(this).attr('src'));
+        $('#imagemodal').modal('show');
     });
 });
