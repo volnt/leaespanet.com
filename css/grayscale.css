@@ -385,9 +385,14 @@ body {
 }
 
 .grid .category-block img {
-    filter: brightness(30%);
+    filter: brightness(35%);
     height: 7em;
     object-fit: cover;
+    transition: filter 1s ease-out;
+}
+
+.grid .category-block img:hover {
+    filter: brightness(0%);
 }
 
 .grid .category-block {
