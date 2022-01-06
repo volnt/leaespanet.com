@@ -370,12 +370,12 @@ body {
 }
 
 .third-column {
-    flex: 33%;
+    flex: 100%;
     padding: 10px;
 }
 
 .half-column {
-    flex: 33%;
+    flex: 50%;
     padding: 10px;
 }
 
