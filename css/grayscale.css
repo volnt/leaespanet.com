@@ -378,7 +378,10 @@ body {
     flex: 50%;
     padding: 10px;
 }
-
+img {max-width: 100%;}
+.img-legend {font-size: 13px;
+    font-family: Montserrat, "Helvetica Neue", Helvetica, Arial, sans-serif;
+}
 .grid img {
     width: 100%;
     padding: 10px;
@@ -439,3 +442,4 @@ form {
 .black-bg {
     background-color: black;
 }
+
