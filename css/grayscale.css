@@ -370,20 +370,20 @@ body {
 }
 
 .third-column {
-    flex: 100%;
+    flex: 150%;
     padding: 10px;
 }
 
 .half-column {
-    flex: 50%;
+    flex: 100%;
     padding: 10px;
 }
-img {max-width: 100%;}
+img {max-width: 150%;}
 .img-legend {font-size: 13px;
     font-family: Montserrat, "Helvetica Neue", Helvetica, Arial, sans-serif;
 }
 .grid img {
-    width: 200%;
+    width: 150%;
     padding: 10px;
 }
 
