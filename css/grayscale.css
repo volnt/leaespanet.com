@@ -375,7 +375,7 @@ body {
 }
 
 .half-column {
-    flex: 70%;
+    flex: 50%;
     padding: 10px;
 }
 img {max-width: 100%;}
