@@ -35,3 +35,21 @@ $(function() {
         $('#imagemodal').modal('show');
     });
 });
+
+// Init plugin mixitup
+let mixer = mixitup( '.test-container', {
+    load: {
+        filter: '.general'
+    }
+} );
+
+let buttons = document.querySelectorAll('.bouton')
+
+buttons.forEach((button) => {
+    button.addEventListener("click", ()=> {
+        buttons.forEach((button) => {
+            button.classList.remove("selected")
+        })
+        button.classList.add("selected")
+    })
+})

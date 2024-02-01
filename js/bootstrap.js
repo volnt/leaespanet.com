@@ -974,8 +974,8 @@ if (typeof jQuery === 'undefined') {
       }
 
       that.$element
-        .show()
-        .scrollTop(0)
+      .scrollTop(0)
+      .css("display", "flex")
 
       if (that.options.backdrop) that.adjustBackdrop()
       that.adjustDialog()
