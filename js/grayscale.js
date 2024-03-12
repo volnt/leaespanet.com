@@ -53,3 +53,25 @@ buttons.forEach((button) => {
         button.classList.add("selected")
     })
 })
+
+//BTN-Back-up
+
+window.addEventListener('scroll', function() {
+    let scro = document.getElementById('btn-scro');
+    let posPortfolio = document.getElementById('portfolio')
+    let scrollTop = window.pageYOffset || this.document.documentElement.scrollTop;
+    let portfolioPosition = posPortfolio.getBoundingClientRect().top;
+
+    if(scrollTop <= portfolioPosition + 3800){
+        scro.classList.remove('btn-back-top-display')
+    } else {
+        scro.classList.add('btn-back-top-display')
+    }
+
+
+    if(scrollTop <= portfolioPosition + 4000){
+        scro.classList.remove('btn-back-top')
+    } else {
+        scro.classList.add('btn-back-top')
+    }
+})

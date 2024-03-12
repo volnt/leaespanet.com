@@ -975,7 +975,7 @@ if (typeof jQuery === 'undefined') {
 
       that.$element
       .scrollTop(0)
-      .css("display", "flex")
+      .css("display", "grid")
 
       if (that.options.backdrop) that.adjustBackdrop()
       that.adjustDialog()
